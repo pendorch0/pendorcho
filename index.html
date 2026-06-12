@@ -1,49 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
 <meta charset="UTF-8">
-<title>Mi Diario Visual</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Diario Visual</title>
 
 <style>
-body{
-    max-width:900px;
-    margin:auto;
-    padding:40px;
-    font-family:Georgia, serif;
-    background:#f8f8f8;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-img{
-    width:100%;
-    height:auto;
-    margin-bottom:20px;
+body{
+    background:#000;
+    color:#e5e5e5;
+    font-family:Georgia, serif;
+}
+
+.hero{
+    height:100vh;
+    background-image:url('foto1.jpg');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:flex-end;
+    padding:60px;
+}
+
+.hero-content{
+    max-width:700px;
 }
 
 h1{
+    font-size:4rem;
     font-weight:normal;
+    margin-bottom:10px;
+}
+
+.subtitulo{
+    color:#bdbdbd;
+    font-size:1.1rem;
+}
+
+.contenido{
+    max-width:900px;
+    margin:auto;
+    padding:120px 40px;
 }
 
 .fecha{
-    color:#666;
-    margin-bottom:20px;
+    color:#888;
+    margin-bottom:30px;
+    letter-spacing:2px;
+    text-transform:uppercase;
 }
-</style>
 
+p{
+    line-height:1.8;
+    font-size:1.1rem;
+    margin-bottom:60px;
+}
+
+.foto{
+    width:100%;
+    margin-bottom:120px;
+}
+
+.foto img{
+    width:100%;
+    display:block;
+}
+
+.footer{
+    text-align:center;
+    color:#666;
+    padding:80px 20px;
+    border-top:1px solid #222;
+}
+
+</style>
 </head>
 
 <body>
 
+<section class="hero">
+
+<div class="hero-content">
 <h1>Diario Visual</h1>
+<div class="subtitulo">
+Fragmentos, fotografías y notas.
+</div>
+</div>
+
+</section>
+
+<section class="contenido">
 
 <div class="fecha">
 Estamos en el 2026
 </div>
 
-<img src="foto1.jpg.JPG">
-
 <p>
-Noticias.
+Espacio para pensar
 </p>
+    
+<div class="foto">
+<img src="foto1.jpg.JPG">
+</div>
+    
+<div class="foto">
+<img src="foto2.jpg">
+</div>
+
+<div class="foto">
+<img src="foto3.jpg">
+</div>
+
+<div class="foto">
+<img src="foto4.jpg">
+</div>
+
+</section>
+
+<div class="footer">
+Ignacio Prospero
+</div>
 
 </body>
 </html>
