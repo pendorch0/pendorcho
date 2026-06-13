@@ -17,122 +17,138 @@
 
 body{
     background:#000;
-    color:#e5e5e5;
+    color:#ddd;
     font-family:Georgia, serif;
-}
-
-.hero{
-    height:30vh;
-    background-image:url('foto1.jpg');
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position:center;
-    display:flex;
-    align-items:flex-end;
     padding:60px;
-}
-
-.hero-content{
-    max-width:600px;
-}
-
-h1{
-    font-size:4rem;
-    font-weight:normal;
-    margin-bottom:10px;
-}
-
-.subtitulo{
-    color:#bdbdbd;
-    font-size:1.1rem;
-}
-
-.contenido{
-    width:95%;
+    max-width:1000px;
     margin:auto;
-    padding:80px 0;
 }
 
-.fecha{
-    color:#888;
-    margin-bottom:30px;
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:120px;
+}
+
+nav a{
+    color:#ddd;
+    text-decoration:none;
+    font-size:14px;
     letter-spacing:2px;
     text-transform:uppercase;
 }
 
-p{
-    line-height:1.8;
-    font-size:1.1rem;
-    margin-bottom:60px;
+nav a:hover{
+    opacity:.5;
 }
 
-.foto{
-    text-align:center;
+h1{
+    font-size:3rem;
+    font-weight:normal;
     margin-bottom:120px;
 }
 
-.foto img{
-    max-width:95vw;
-    max-height:95vh;
-    width:auto;
-    height:auto;
-    display:inline-block;
+.anio{
+    font-size:2rem;
+    margin-bottom:60px;
+    color:#999;
 }
 
-.footer{
-    text-align:center;
+.mes{
+    font-size:1.2rem;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    margin-top:60px;
+    margin-bottom:25px;
+    color:#888;
+}
+
+.serie{
+    display:block;
+    color:#ddd;
+    text-decoration:none;
+    font-size:1.8rem;
+    margin-bottom:12px;
+}
+
+.serie:hover{
+    opacity:.6;
+}
+
+.info{
     color:#666;
-    padding:80px 20px;
-    border-top:1px solid #222;
+    margin-bottom:40px;
+    font-size:14px;
+}
+
+footer{
+    margin-top:150px;
+    color:#555;
+    font-size:14px;
 }
 
 </style>
+
 </head>
 
 <body>
 
-<section class="hero">
+<nav>
+    <a href="index.html">Archivo</a>
+    <a href="sobre.html">Sobre</a>
+</nav>
 
-<div class="hero-content">
 <h1>Diario Visual</h1>
-<div class="subtitulo">
-Fragmentos, fotografías y notas.
-</div>
+
+<div class="anio">2026</div>
+
+<div class="mes">Junio</div>
+
+<a class="serie" href="series/centro-vacio.html">
+El Centro Vacío
+</a>
+
+<div class="info">
+12 fotografías
 </div>
 
-</section>
+<a class="serie" href="series/colectivos-nocturnos.html">
+Colectivos Nocturnos
+</a>
 
-<section class="contenido">
-
-<div class="fecha">
-Estamos en el 2026
+<div class="info">
+18 fotografías
 </div>
 
-<p>
-Espacio para pensar
-</p>
-    
-<div class="foto">
-<img src="foto1.jpg.JPG">
-</div>
-    
-<div class="foto">
-<img src="foto2.JPG">
+<a class="serie" href="series/hospitales.html">
+Hospitales
+</a>
+
+<div class="info">
+9 fotografías
 </div>
 
-<div class="foto">
-<img src="foto3.JPG">
+<div class="mes">Mayo</div>
+
+<a class="serie" href="series/casas-bajas.html">
+Casas Bajas
+</a>
+
+<div class="info">
+14 fotografías
 </div>
 
-<div class="foto">
-<img src="foto4.JPG">
-</div>
-    
-</section>
+<a class="serie" href="series/ruta8.html">
+Ruta 8
+</a>
 
-<div class="footer">
-Ignacio Prospero
+<div class="info">
+21 fotografías
 </div>
+
+<footer>
+Ignacio Cano
+</footer>
 
 </body>
 </html>
