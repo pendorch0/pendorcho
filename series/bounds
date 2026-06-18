@@ -1,1 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bounds</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    color:#ddd;
+    font-family:Georgia, serif;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:25px 40px;
+    background:rgba(0,0,0,.85);
+    display:flex;
+    justify-content:space-between;
+    z-index:1000;
+}
+
+nav a{
+    color:#ddd;
+    text-decoration:none;
+    font-size:14px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+nav a:hover{
+    opacity:.6;
+}
+
+.cabecera{
+    padding-top:140px;
+    padding-bottom:120px;
+    text-align:center;
+}
+
+.titulo{
+    font-size:4rem;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.fecha{
+    color:#777;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+.intro{
+    max-width:700px;
+    margin:0 auto;
+    padding:0 30px 120px 30px;
+    text-align:center;
+    line-height:1.8;
+    color:#999;
+}
+
+.foto{
+    text-align:center;
+    margin-bottom:120px;
+}
+
+.foto img{
+    max-width:95vw;
+    max-height:95vh;
+    width:auto;
+    height:auto;
+    display:inline-block;
+}
+
+.texto{
+    max-width:700px;
+    margin:100px auto;
+    padding:0 30px;
+    line-height:1.9;
+    color:#aaa;
+}
+
+.footer-nav{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    padding:120px 30px;
+}
+
+.footer-nav a{
+    color:#777;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:13px;
+}
+
+.footer-nav a:hover{
+    color:#ddd;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+    <a href="../index.html">Archivo</a>
+</nav>
+
+<section class="cabecera">
+
+    <h1 class="titulo">
+       .
+    </h1>
+
+    <div class="fecha">
+        Junio 2026
+    </div>
+
+</section>
+
+<section class="intro">
+
+
+</section>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/fotografias-rojas/foto-roja4.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>
+
+<div class="foto">
+    <img src="../imagenes/.JPG">
+</div>    
+    
+<div class="footer-nav">
+
+    <a href="../index.html">Archivo</a>
+
+</div>
+
+</body>
+</html>
